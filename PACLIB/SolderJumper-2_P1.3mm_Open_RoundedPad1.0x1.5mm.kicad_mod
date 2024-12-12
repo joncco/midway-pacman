@@ -1,0 +1,183 @@
+(footprint "SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open without 1 copper strip")
+	(tags "net tie solder jumper open")
+	(property "Reference" "JP2"
+		(at 0 -1.8 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "65f00c67-bb96-436a-9ba0-4b960afa41e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SolderJumper_2_Open"
+		(at 0 1.9 0)
+		(layer "F.Fab")
+		(uuid "954b27e0-7e1a-4fd9-8453-1c0726f7e16b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "88e07e35-f696-4e48-8181-7d81d51309ca")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "97e67883-e250-423f-aed6-16039865128b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Solder Jumper, 2-pole, open"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a889b70-a91d-4823-bd24-7201cbada49a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(zone_connect 1)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(net_tie_pad_groups "1, 2")
+	(fp_line
+		(start -1.65 -1.25)
+		(end -1.65 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9a508eb7-60a3-45a1-adbf-8632f0e39bb4")
+	)
+	(fp_line
+		(start -1.65 -1.25)
+		(end 1.65 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "122e2226-a16b-4fbd-9f24-9804d5bd1681")
+	)
+	(fp_line
+		(start 1.65 1.25)
+		(end -1.65 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "733e04ea-8f1b-40a7-8b74-1cf97fc76e39")
+	)
+	(fp_line
+		(start 1.65 1.25)
+		(end 1.65 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dfe99a9f-233f-4fa6-87b2-63e2bba3c5cf")
+	)
+	(pad "1" smd custom
+		(at -1 0)
+		(size 1 0.5)
+		(layers "F.Cu")
+		(zone_connect 2)
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.8 -0.95395) (xy 0.602113 -1.030611) (xy 0.39351 -1.069606) (xy 0.181292 -1.069606) (xy -0.027311 -1.030611)
+					(xy -0.225198 -0.95395) (xy -0.405629 -0.842232) (xy -0.562459 -0.699262) (xy -0.690349 -0.529909)
+					(xy -0.784942 -0.33994) (xy -0.843018 -0.135824) (xy -0.862599 0.075488) (xy -0.843018 0.2868)
+					(xy -0.784942 0.490916) (xy -0.690349 0.680885) (xy -0.562459 0.850238) (xy -0.405629 0.993208)
+					(xy -0.225198 1.104926) (xy -0.027311 1.181587) (xy 0.181292 1.220582) (xy 0.39351 1.220582) (xy 0.602113 1.181587)
+					(xy 0.8 1.104926)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "5b1ecc9b-ceba-4368-a666-b41ac123220a")
+	)
+	(pad "2" smd custom
+		(at 1 0)
+		(size 1 0.5)
+		(layers "F.Cu")
+		(zone_connect 2)
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_circle
+				(center -0.3 0.25)
+				(end 0.2 0.25)
+				(width 0)
+				(fill yes)
+			)
+			(gr_circle
+				(center -0.3 -0.25)
+				(end 0.2 -0.25)
+				(width 0)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy -0.3 0.75) (xy -0.8 0.75) (xy -0.8 -0.75) (xy -0.3 -0.75)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy -0.8 1.108876) (xy -0.602113 1.185537) (xy -0.39351 1.224532) (xy -0.181292 1.224532) (xy 0.027311 1.185537)
+					(xy 0.225198 1.108876) (xy 0.405629 0.997158) (xy 0.562459 0.854188) (xy 0.690349 0.684835) (xy 0.784942 0.494866)
+					(xy 0.843018 0.29075) (xy 0.862599 0.079438) (xy 0.843018 -0.131874) (xy 0.784942 -0.33599) (xy 0.690349 -0.525959)
+					(xy 0.562459 -0.695312) (xy 0.405629 -0.838282) (xy 0.225198 -0.95) (xy 0.027311 -1.026661) (xy -0.181292 -1.065656)
+					(xy -0.39351 -1.065656) (xy -0.602113 -1.026661) (xy -0.8 -0.95)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "ec1339a7-a26a-46a1-9bbb-93cf11fb20ca")
+	)
+)
